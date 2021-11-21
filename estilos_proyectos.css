@@ -84,3 +84,32 @@ nav a {
 	clear: both;
 }
 
+.projectsElements {
+    margin: 5% 0% 0% 2%;
+}
+  
+section {
+    display:inline-flex;
+    padding: 35px;
+    margin-left: 5px;
+    min-width: 100px;
+}
+  
+section h4 ul li {
+    color: black;
+}
+  
+section h4 {
+    margin-bottom: 15px;
+}
+  
+li {
+    margin-top: 2em;
+}
+  
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    text-align: center;
+    padding-top: 25px;
+}
