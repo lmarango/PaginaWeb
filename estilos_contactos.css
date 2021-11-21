@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #DED9C4;
+    min-height: 500px;
+}
+
+#contenido{
+	width: 100%;
+	margin: 0px auto;
+}
+header{
+	height: 100px;
+	width: 100%;
+	background: #34626C;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 18pt;
+	font-variant-caps: all-small-caps;
+	font-stretch: expanded;
+	text-align: center;
+	color: white;
+	line-height: 100px;
+}
+nav{
+	background: #839B97;
+	border-top: 2px solid white;
+	padding-left: 100px;
+	font-style: oblique;
+	color: black;
+	font-weight: bold;
+	height: 50px;
+	border-bottom: 2px solid white;	
+}
+footer {
+	height: 60px;
+	background: #34626C;
+	border-top: 2px white solid;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-left: 2px ;
+	font-size: 30px;
+}
+footer a{
+	color: whitesmoke;
+	text-decoration: underline white;
+	padding-left: 80px;
+}
+footer p{
+	color: whitesmoke;
+	font-size: 12pt;
+	text-align: left;
+	padding-top: 23px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+footer ul li{
+	float: left;
+	color: white;
+	margin: 10px;
+	line-height: 25px;
+	list-style-type: none;
+}
+nav ul li{
+	float: left;
+	color: #ffbf5e;
+	margin: 10px;
+	line-height: 25px;
+	list-style-type: none;
+}
+nav a:hover {
+	background: #D0CAB2;
+	border-radius: 10px;
+}
+a {
+	color: black;
+}
+nav a {
+	padding: 5px 80px;
+}
+.ordenar{
+	clear: both;
+}
+
+form {
+	margin: 48px auto;
+	width: 30%;
+	padding: 50px;
+	border: 1px solid white ;
+	background-color: #79B4B7;
+}
+
+label {
+	display: inline-block;
+	width: 54%;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 5%;
+}
+
+input, textarea {
+	width: 100%;
+	box-sizing: content-box;
+	border: 1px solid lightyellow;
+	border-radius: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#boton{
+    margin-top: 25px;
+	font-weight: bold;
+	background-color: #DDD;
+    width: 50px;
+    align-items: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#boton:hover{
+    cursor: pointer;
+    background-color: #FED2AA; /* Green */
+    color: black;
+}
+
+textarea {
+	vertical-align: top;
+	height: 50px;
+	resize: vertical;
+}
+
+
